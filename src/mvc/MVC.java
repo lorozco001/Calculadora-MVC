@@ -6,6 +6,7 @@
 package mvc;
 
 import controlador.Controlador;
+import java.awt.Color;
 import modelo.Modelo;
 import vista.Vista;
 
@@ -22,5 +23,6 @@ public class MVC {
         Controlador ctrl = new Controlador(view,mod); 
         ctrl.iniciar();
         view.setVisible(true);
+        
     }
 }
